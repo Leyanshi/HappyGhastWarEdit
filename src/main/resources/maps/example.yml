@@ -1,0 +1,6 @@
+name: 'Test'
+
+game:
+  teams: 4
+  teamSize: 4
+  timeCount: 60

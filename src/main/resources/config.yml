@@ -1,0 +1,32 @@
+#服务器IP，会显示在计分板上
+serverIp: 'ngup.eu.org'
+#服务器默认语言选择
+language: 'zh_cn.yml'
+#跨服选项
+bungee:
+  #是否开启Bungee模式
+  enable: false
+  #是否允许玩家在子服选择游戏
+  can-select-game: false
+  #服务器名称，用于区分服务器
+  #确保在Bungee端的服务器名称与其相同
+  serverName: 'gw1'
+  #大厅服务器名称
+  lobby: 'hub'
+  #服务器地址和端口。注意：不是服务器地址，是HappyGhastWar-Proxy插件的地址
+  host: '127.0.0.1'
+  port: 25599
+
+entity-white-list:
+  - 'HAPPY_GHAST'
+  - 'ITEM'
+  - 'BLOCK_DISPLAY'
+  - 'TEXT_DISPLAY'
+  - 'INTERACTION'
+  - 'FIREWORK_ROCKET'
+  - 'ARROW'
+  - 'FISHING_BOBBER'
+  - 'WIND_CHARGE'
+  - 'FIREBALL'
+  - 'TNT'
+  - 'TNT_MINECART'

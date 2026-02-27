@@ -1,0 +1,190 @@
+commands:
+  main-list:
+    - '&6▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+    - '&a插件指令'
+    - '&e/gw gui &7 - &b打开游戏菜单'
+    - '&e/gw leave &7 - &b离开游戏'
+    - '&e/gw join <世界名称> &7 - &b加入游戏'
+    - '&e/gw admin &7 - &b查看管理员指令'
+  admin-list:
+    - '&6▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+    - '&a管理员指令'
+    - '&e/gw admin create <世界名称> <显示名称> &7 - &b创建游戏'
+    - '&e/gw admin setwait &7 - &b设置游戏等待位置'
+    - '&e/gw admin setcenter &7 - &b设置游戏中心位置'
+    - '&e/gw admin setlobby &7 - &b设置服务器大厅'
+    - '&e/gw admin setspawn <队伍ID> &7 - &b设置队伍重生点'
+    - '&e/gw admin setghastspawn <队伍ID> &7 - &b设置队伍乐魂重生点'
+    - '&e/gw admin setradius <半径> &7 - &b设置地图初始边界半径'
+    - '&e/gw admin settargetradius <半径> &7 - &b设置缩圈后的半径'
+    - '&e/gw admin setghastamount <数量> &7 - &b设置每队乐魂数量'
+    - '&e/gw admin disable &7 - &b暂时禁用地图'
+    - '&e/gw admin enable &7 - &b启用地图'
+    - '&e/gw admin backup <世界名称> &7 - &b备份地图(需确保目标世界无玩家)'
+    - '&e/gw admin addchest &7 - &b添加物资箱子(视线对准箱子)'
+    - '&e/gw admin removechest &7 - &b移除物资箱子(视线对准箱子)'
+  party-list:
+    - '&6▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+    - '&a队伍指令：'
+    - '&e/party create &7- &b创建队伍'
+    - '&e/party invite <玩家> &7- &b邀请玩家'
+    - '&e/party accept <玩家> &7- &b接受邀请'
+    - '&e/party decline <玩家> &7- &b拒绝邀请'
+    - '&e/party leave &7- &b离开队伍'
+    - '&e/party kick <玩家> &7- &b踢出玩家'
+    - '&e/party transfer <玩家> &7- &b转让队长'
+    - '&e/party disband &7- &b解散队伍'
+    - '&e/party info &7- &b查看队伍信息'
+  importWorld: '&a正在尝试导入世界...'
+  importFailed: '&c导入失败,世界不存在！'
+  gameCreateSuccess: '&a游戏创建成功！'
+  gameNotFound: '&c游戏未找到！'
+  missRequireData: '&c缺少必要参数！'
+  teamNotFound: '&c队伍未找到，注意区分大小写！'
+  setSuccess: '&a设置成功！'
+  availableTeams: '&e可用队伍：RED(红)、BLUE(蓝)、GREEN(绿)、YELLOW(黄)、WHITE(白)、AQUA(青)、GOLD(金)、PURPLE(紫)'
+  use-arena-lobby: '&c你不可以将游戏区域设为大厅！'
+  target-empty: '&c请注视目标方块后再试!'
+  type-not-chest: '&c目标方块必须是箱子！'
+  cant-select-game: '&c你不可以在节点服务器选择游戏。若需选择其他游戏，请先&7/gw leave'
+  join-spectator: '&e你已以旁观者加入，使用&7/gw leave&e离开游戏!'
+  lobby-not-allow: '&e你不能将大厅设在竞技场内！'
+upgrade:
+  iron-ingot: '铁锭'
+  oak-log: '原木'
+  netherite-ingot: '合金'
+  coal: '煤炭'
+  copper-ingot: '铜锭'
+  snow: '雪块'
+  gui-title: '&8核心商店'
+  item-now: '&7当前: &e{0}'
+  item-next: '&7下一级: &a{0}'
+  item-price: '&6价格: '
+game:
+  getMinPlayers: '&a游戏将在 {time} 后开始！'
+  game-cancel-message: '&c人数过少！倒计时已停止'
+  arena-start-countdown-title: ' '
+  arena-start-countdown-subtitle-5: '&e❺'
+  arena-start-countdown-subtitle-4: '&e❹'
+  arena-start-countdown-subtitle-3: '&c❸'
+  arena-start-countdown-subtitle-2: '&c❷'
+  arena-start-countdown-subtitle-1: '&c❶'
+  player-join-game: '&e{name} 加入了游戏'
+  player-leave-game: '&e{name} 离开了游戏'
+  game-start-title: '&a游戏开始'
+  game-start-subtitle: '&a活到最后！'
+  game-start-message: '&a游戏开始'
+  ghast-kill-chat: |2
+
+    &f&l乐魂死亡 > {0}{1}队的乐魂&7被{2}{3}&7杀死了！
+  respawn-unavailable-title: '&c乐魂全部死亡'
+  respawn-unavailable-subtitle: '&c你将无法复活'
+  respawn-title: '&c你死了'
+  respawn-subtitle: '&a3秒后复活'
+  cant-respawn-title: '&c游戏结束'
+  cant-respawn-subtitle: '&e你已无法复活'
+  reward-add: '&a +{0}'
+  team-eliminated: |2
+    
+    &f&l队伍团灭 > {0}{1}队&c已被团灭！
+  end-game-over-title: '&c&l游戏结束！'
+  end-victory-title: '&6&l胜利！'
+  end-winner-team: '{0}{1}队&a赢得了这场游戏！'
+  null-player: '无玩家'
+  end-top-chat: |-
+    &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    &f                                   &l乐魂战
+    &r
+    {0}{1}队&7 - {2}
+    &r
+    &r
+    &e                          &l击杀第一名 &7- {firstName} - {firstKills}
+    &6                          &l击杀第二名 &7- {secondName} - {secondKills}
+    &c                          &l击杀第三名 &7- {thirdName} - {thirdKills}
+    &r
+    &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+  player-die-void-regular: '{0}{1}&7掉进了虚空。'
+  player-die-void-final: '{0}{1}&7掉进了虚空。 
+    &b&l最终击杀！'
+  player-die-knocked-void-regular: '{0}{1}&7被{2}{3}&7丢进了虚空。'
+  player-die-knocked-void-final: '{0}{1}&7被{2}{3}&7丢进了虚空。
+    &b&l最终击杀！'
+  player-die-knocked-fall-regular: '{0}{1}&7被{2}{3}&7推下了悬崖。'
+  player-die-knocked-fall-final: '{0}{1}&7被{2}{3}&7推下了悬崖。
+    &b&l最终击杀！'
+  player-die-bomb-regular: '{0}{1}&7被{2}{3}&7炸死了。'
+  player-die-bomb-final: '{0}{1}&7被{2}{3}&7炸死了。
+    &b&l最终击杀！'
+  player-die-bomb2-regular: '{0}{1}&7爆炸了。'
+  player-die-bomb2-final: '{0}{1}&7爆炸了。 
+    &b&l最终击杀！'
+  player-die-attack-regular: '{0}{1}&7被{2}{3}&7击杀。'
+  player-die-attack-final: '{0}{1}&7被{2}{3}&7击杀。
+    &b&l最终击杀！'
+  player-die-unknown-regular: '{0}{1}&7死了。'
+  player-die-unknown-final: '{0}{1}&7死了。 
+    &b&l最终击杀！'
+  player-die-shoot-regular: '{0}{1}&7被{2}{3}&7射死了！'
+  player-die-shoot-final: '{0}{1}&7被{2}{3}&7射死了！
+    &b&l最终击杀！'
+  arena-close: '&e本场游戏将在15秒后关闭！'
+  protect-ghast: '&4你不可以攻击己方乐魂！'
+  enter-other-ghast: '&4你不可以乘坐其他队伍的乐魂！'
+  party-too-large: '&c队伍规模过大！'
+  party-not-enough-space: "&c当前游戏没有足够的空间容纳你的整个队伍"
+bossbar:
+  develop: "发育阶段 剩余&e&l{0}s"
+  battle: "&e&l{0}s&r后开始缩圈"
+  reduce: "缩圈中&e&l{0}s"
+  ultimate: "所有乐魂将在 &e&l{0}s &r死亡"
+item:
+  lobby-bed-name: '&e返回大厅'
+  lobby-bed-lore:
+    - '&a点击返回游戏大厅'
+party:
+  invite-sent: '&7{inviter}&e邀请&7{target}&e加入小队'
+  invite-received: '&7{inviter}&e邀请你加入&7{party}&e小队'
+  player-joined: '&7{player}&e已加入小队'
+  invite-declined: '&7{player}&e拒绝了邀请'
+  player-kicked: '&7{kicker}&c已将&7{player}&c移除小队'
+  player-left: '&7{player}离开了小队'
+  leadership-transferred: '&7{oldLeader}&e已将队长移交给&7{newLeader}'
+  disbanded: '&7{player}已将小队解散'
+  chat-format: '[小队][{player}]: {message}'
+  unable-use-in-game: '&c队伍指令不能在游戏中使用！'
+scoreboard:
+  title: '&e&l乐魂战'
+  team: '队'
+  waiting:
+    - '&7{date} &8{server}'
+    - ''
+    - '&f地图：&a{map}'
+    - ''
+    - '&f玩家数：&a{on}/{max}'
+    - ''
+    - '&f等待中...'
+    - ''
+    - '&e{serverIp}'
+  starting:
+    - '&7{date} &8{server}'
+    - ''
+    - '&f地图：&a{map}'
+    - ''
+    - '&f玩家数：&a{on}/{max}'
+    - ''
+    - '&f &a{time} &f秒后开始'
+    - ''
+    - '&e{serverIp}'
+  playing:
+    - '&7{date} &8{server}'
+    - ''
+    - '{team1}'
+    - '{team2}'
+    - '{team3}'
+    - '{team4}'
+    - '{team5}'
+    - '{team6}'
+    - '{team7}'
+    - '{team8}'
+    - ''
+    - '&e{serverIp}'

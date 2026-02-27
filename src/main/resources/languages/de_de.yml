@@ -1,0 +1,191 @@
+# de_de.yml (德语)
+commands:
+  main-list:
+    - '&6▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+    - '&aPlugin-Befehle'
+    - '&e/gw gui &7 - &bSpielmenü öffnen'
+    - '&e/gw leave &7 - &bSpiel verlassen'
+    - '&e/gw join <Weltname> &7 - &bSpiel beitreten'
+    - '&e/gw admin &7 - &bAdmin-Befehle anzeigen'
+  admin-list:
+    - '&6▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+    - '&aAdministrator-Befehle'
+    - '&e/gw admin create <Weltname> <Anzeigename> &7 - &bSpiel erstellen'
+    - '&e/gw admin setwait &7 - &bWartelobby festlegen'
+    - '&e/gw admin setcenter &7 - &bSpielzentrum festlegen'
+    - '&e/gw admin setlobby &7 - &bServer-Lobby festlegen'
+    - '&e/gw admin setspawn <Team-ID> &7 - &bTeam-Spawnpunkt festlegen'
+    - '&e/gw admin setghastspawn <Team-ID> &7 - &bTeam-Ghast-Spawnpunkt festlegen'
+    - '&e/gw admin setradius <Radius> &7 - &bAnfangs-Weltgrenzenradius festlegen'
+    - '&e/gw admin settargetradius <Radius> &7 - &bVerkleinerter Grenzenradius festlegen'
+    - '&e/gw admin setghastamount <Anzahl> &7 - &bGhasts pro Team festlegen'
+    - '&e/gw admin disable &7 - &bKarte vorübergehend deaktivieren'
+    - '&e/gw admin enable &7 - &bKarte aktivieren'
+    - '&e/gw admin backup <Weltname> &7 - &bKarte sichern (Stellen Sie sicher, dass keine Spieler in der Zielwelt sind)'
+    - '&e/gw admin addchest &7 - &bBeutekiste hinzufügen (Auf Truhe zielen)'
+    - '&e/gw admin removechest &7 - &bBeutekiste entfernen (Auf Truhe zielen)'
+  party-list:
+    - '&6▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+    - '&aTeam-Befehle:'
+    - '&e/party create &7- &bTeam erstellen'
+    - '&e/party invite <Spieler> &7- &bSpieler einladen'
+    - '&e/party accept <Spieler> &7- &bEinladung annehmen'
+    - '&e/party decline <Spieler> &7- &bEinladung ablehnen'
+    - '&e/party leave &7- &bTeam verlassen'
+    - '&e/party kick <Spieler> &7- &bSpieler kicken'
+    - '&e/party transfer <Spieler> &7- &bFührung übertragen'
+    - '&e/party disband &7- &bTeam auflösen'
+    - '&e/party info &7- &bTeam-Informationen anzeigen'
+  importWorld: '&aVersuche Welt zu importieren...'
+  importFailed: '&cImport fehlgeschlagen, Welt existiert nicht!'
+  gameCreateSuccess: '&aSpiel erfolgreich erstellt!'
+  gameNotFound: '&cSpiel nicht gefunden!'
+  missRequireData: '&cErforderliche Parameter fehlen!'
+  teamNotFound: '&cTeam nicht gefunden, bitte Groß-/Kleinschreibung beachten!'
+  setSuccess: '&aErfolgreich festgelegt!'
+  availableTeams: '&eVerfügbare Teams: ROT, BLAU, GRÜN, GELB, WEISS, TÜRKIS, GOLD, LILA'
+  use-arena-lobby: '&cSie können die Arena nicht als Lobby festlegen!'
+  target-empty: '&cBitte schauen Sie auf einen Zielblock!'
+  type-not-chest: '&cZielblock muss eine Truhe sein!'
+  cant-select-game: '&cSie können auf diesem Node-Server kein Spiel auswählen. Verwenden Sie zuerst &7/gw leave&c.'
+  join-spectator: '&eSie sind als Zuschauer beigetreten. Verwenden Sie &7/gw leave&e zum Verlassen!'
+  lobby-not-allow: '&eDu kannst die Lobby nicht in der Arena einrichten!'
+upgrade:
+  iron-ingot: 'Eisenbarren'
+  oak-log: 'Eichenholz'
+  netherite-ingot: 'Netheritbarren'
+  coal: 'Kohle'
+  copper-ingot: 'Kupferbarren'
+  snow: 'Schneeblock'
+  gui-title: '&8Hauptshop'
+  item-now: '&7Aktuell: &e{0}'
+  item-next: '&7Nächste Stufe: &a{0}'
+  item-price: '&6Preis: '
+game:
+  getMinPlayers: '&aSpiel startet in {time}!'
+  game-cancel-message: '&cNicht genügend Spieler! Countdown gestoppt.'
+  arena-start-countdown-title: ' '
+  arena-start-countdown-subtitle-5: '&e❺'
+  arena-start-countdown-subtitle-4: '&e❹'
+  arena-start-countdown-subtitle-3: '&c❸'
+  arena-start-countdown-subtitle-2: '&c❷'
+  arena-start-countdown-subtitle-1: '&c❶'
+  player-join-game: '&e{name} ist dem Spiel beigetreten'
+  player-leave-game: '&e{name} hat das Spiel verlassen'
+  game-start-title: '&aSpielstart'
+  game-start-subtitle: '&aSei der Letzte!'
+  game-start-message: '&aSpielstart'
+  ghast-kill-chat: |2
+    
+    &f&lGhast getötet > {0}{1}s Ghast&7 wurde von {2}{3}&7 getötet!
+  respawn-unavailable-title: '&cAlle Ghasts tot'
+  respawn-unavailable-subtitle: '&cSie können nicht wiederbeleben'
+  respawn-title: '&cSie sind gestorben'
+  respawn-subtitle: '&aWiederbelebung in 3 Sekunden'
+  cant-respawn-title: '&cSpiel vorbei'
+  cant-respawn-subtitle: '&eSie können nicht mehr wiederbeleben'
+  reward-add: '&a +{0}'
+  team-eliminated: |2
+    
+    &f&lTeam eliminiert > {0}{1}-Team &cwurde eliminiert!
+  end-game-over-title: '&c&lSpiel vorbei!'
+  end-victory-title: '&6&lSieg!'
+  end-winner-team: '{0}{1}-Team &ahat das Spiel gewonnen!'
+  null-player: 'Kein Spieler'
+  end-top-chat: |-
+    &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    &f                                   &lGhast-Krieg
+    &r
+    {0}{1}-Team&7 - {2}
+    &r
+    &r
+    &e                          &lTop-Killer #1 &7- {firstName} - {firstKills}
+    &6                          &lTop-Killer #2 &7- {secondName} - {secondKills}
+    &c                          &lTop-Killer #3 &7- {thirdName} - {thirdKills}
+    &r
+    &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+  player-die-void-regular: '{0}{1}&7 fiel ins Leere.'
+  player-die-void-final: '{0}{1}&7 fiel ins Leere. 
+    &b&lFinaler Kill!'
+  player-die-knocked-void-regular: '{0}{1}&7 wurde von {2}{3}&7 ins Leere geschlagen.'
+  player-die-knocked-void-final: '{0}{1}&7 wurde von {2}{3}&7 ins Leere geschlagen. 
+    &b&lFinaler Kill!'
+  player-die-knocked-fall-regular: '{0}{1}&7 wurde von {2}{3}&7 eine Klippe hinuntergestoßen.'
+  player-die-knocked-fall-final: '{0}{1}&7 wurde von {2}{3}&7 eine Klippe hinuntergestoßen. 
+    &b&lFinaler Kill!'
+  player-die-bomb-regular: '{0}{1}&7 wurde von {2}{3}&7 in die Luft gejagt.'
+  player-die-bomb-final: '{0}{1}&7 wurde von {2}{3}&7 in die Luft gejagt. 
+    &b&lFinaler Kill!'
+  player-die-bomb2-regular: '{0}{1}&7 explodierte.'
+  player-die-bomb2-final: '{0}{1}&7 explodierte. 
+    &b&lFinaler Kill!'
+  player-die-attack-regular: '{0}{1}&7 wurde von {2}{3}&7 getötet.'
+  player-die-attack-final: '{0}{1}&7 wurde von {2}{3}&7 getötet. 
+    &b&lFinaler Kill!'
+  player-die-unknown-regular: '{0}{1}&7 starb.'
+  player-die-unknown-final: '{0}{1}&7 starb. 
+    &b&lFinaler Kill!'
+  player-die-shoot-regular: '{0}{1}&7 wurde von {2}{3}&7 erschossen!'
+  player-die-shoot-final: '{0}{1}&7 wurde von {2}{3}&7 erschossen! 
+    &b&lFinaler Kill!'
+  arena-close: '&eDieses Spiel schließt in 15 Sekunden!'
+  protect-ghast: '&4Sie können nicht das Ghast Ihres eigenen Teams angreifen!'
+  enter-other-ghast: '&4Sie können nicht das Ghast eines anderen Teams reiten!'
+  party-too-large: '&cTeam ist zu groß!'
+  party-not-enough-space: "&cDieses Spiel hat nicht genug Platz für Ihr gesamtes Team"
+bossbar:
+  develop: "Entwicklungsphase &e&l{0}s&r verbleibend"
+  battle: "Grenze schrumpft in &e&l{0}s"
+  reduce: "Grenze schrumpft &e&l{0}s"
+  ultimate: "Alle Ghasts sterben in &e&l{0}s"
+item:
+  lobby-bed-name: '&eZurück zur Lobby'
+  lobby-bed-lore:
+    - '&aKlicken, um zur Lobby zurückzukehren'
+party:
+  invite-sent: '&7{inviter}&e hat &7{target}&e ins Team eingeladen'
+  invite-received: '&7{inviter}&e hat Sie ins Team &7{party}&e eingeladen'
+  player-joined: '&7{player}&e ist dem Team beigetreten'
+  invite-declined: '&7{player}&e hat die Einladung abgelehnt'
+  player-kicked: '&7{kicker}&c hat &7{player}&c aus dem Team geworfen'
+  player-left: '&7{player} hat das Team verlassen'
+  leadership-transferred: '&7{oldLeader}&e hat die Führung an &7{newLeader} übertragen'
+  disbanded: '&7{player} hat das Team aufgelöst'
+  chat-format: '[Team][{player}]: {message}'
+  unable-use-in-game: '&cTeam-Befehle können im Spiel nicht verwendet werden!'
+scoreboard:
+  title: '&e&lGhast-Krieg'
+  team: 'Team'
+  waiting:
+    - '&7{date} &8{server}'
+    - ''
+    - '&fKarte: &a{map}'
+    - ''
+    - '&fSpieler: &a{on}/{max}'
+    - ''
+    - '&fWarten...'
+    - ''
+    - '&e{serverIp}'
+  starting:
+    - '&7{date} &8{server}'
+    - ''
+    - '&fKarte: &a{map}'
+    - ''
+    - '&fSpieler: &a{on}/{max}'
+    - ''
+    - '&fStartet in &a{time} &fSekunden'
+    - ''
+    - '&e{serverIp}'
+  playing:
+    - '&7{date} &8{server}'
+    - ''
+    - '{team1}'
+    - '{team2}'
+    - '{team3}'
+    - '{team4}'
+    - '{team5}'
+    - '{team6}'
+    - '{team7}'
+    - '{team8}'
+    - ''
+    - '&e{serverIp}'
