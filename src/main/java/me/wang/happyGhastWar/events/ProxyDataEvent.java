@@ -1,5 +1,5 @@
 package me.wang.happyGhastWar.events;
-
+// 78
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import me.wang.happyGhastWar.HappyGhastWar;
@@ -50,3 +50,4 @@ public class ProxyDataEvent implements Listener {
         arena.internalAddPlayer(player);
     }
 }
+
